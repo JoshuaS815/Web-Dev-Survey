@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <title>Survey</title>
+    
+</head>
+<body id="body">
+
+    <h1 id="title">Web Dev Survey</h1>
+    
+    <div class="line"></div>
+
+    <p id="description">Survey for Htmlnerd.org</p>
+
+    <form action="_self" id="survey-form">
+        <fieldset>
+            <legend>Your information</legend>
+            First name:<br>
+            <input type="text" id="name-label" placeholder="First name"><br><br>
+            Last name:<br>
+            <input type="text" id="name-label2" placeholder="Last name"><br><br>
+            Email:<br>
+            <input type="email" id="email-label" placeholder="Email address" required><br><br>
+            Years of experince:<br>
+            <input type="number" min="0" max="63" placeholder="Enter #" id="number-label" required ><br><br>
+            Which are you most effcient in?
+            <select name="skills" id="dropdown">
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="Java">Java</option>
+            </select><br><br>
+            What use are you learning web development for?<br>
+            <input type="checkbox" name="goals" id="goal1" value="personal">Personal
+            <input type="checkbox" name="goals" id="goal2" value="hobby">Hobby
+            <input type="checkbox" name="goals" id="goal3" value="professional">Professional<br><br>
+            Receive emails about free coding resources?<br>
+            <input type="radio" name="receive-emails" value="yes" checked>Yes<br>
+            <input type="radio" name="receive-emails" value="no">No<br><br>
+            
+            <input type="submit" id="submit"><br><br>
+            
+            <label for="story"><u></u>Additional comments</u></label><br><br>
+
+            <textarea id="comments" name="comments" rows="5" cols="33">
+
+</textarea>
+            
+        </fieldset>
+        </form>
+</body>
+</html>
